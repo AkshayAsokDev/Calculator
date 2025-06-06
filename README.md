@@ -9,3 +9,7 @@ Requirements
 4. Make sure that 0/0 gives you NaN as output.
 5. Make sure you get Error as the output upon clicking = directly.
 6. Make sure you get output as Infinity when we divide by 0.
+
+
+Vercel deployed Link
+https://react-calculator-mauve-three.vercel.app/
