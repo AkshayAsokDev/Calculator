@@ -86,7 +86,14 @@ function App() {
         >C</button>
         <Button value="0" handleInput={handleInput} />
         <button 
-        onClick={calculate}
+        onClick={() => {
+          if (expression){
+            calculate();
+          }
+          else {
+            setResult("Error");
+          }
+        }}
         style={{
           width : "50px",
           height : "50px",
